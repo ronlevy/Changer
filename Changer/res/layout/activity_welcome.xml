@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.RoNir.changer.WelcomeActivity" >
+
+    <TextView
+        android:id="@+id/textViewWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/WelcomeText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonBusinessOwner"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_below="@+id/textViewWelcomeTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/title_business_owner" />
+
+    <Button
+        android:id="@+id/buttonClient"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_below="@+id/buttonBusinessOwner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/title_client" />
+
+</RelativeLayout>

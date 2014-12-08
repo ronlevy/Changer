@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Changer</string>
+    <string name="action_settings">Settings</string>
+    <string name="WelcomeText">ברוכים הבאים לצ\'יינג\'ר</string>
+    <string name="title_business_owner">בעל עסק</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_client">לקוח</string>
+</resources>

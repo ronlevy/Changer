@@ -9,7 +9,120 @@
     tools:context="com.RoNir.changer.BusinessOwnerRegistrationActivity" >
 
     <TextView
+        android:id="@+id/textViewBusinessTitle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/title_business_owner"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textViewOwnerDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewBusinessName"
+        android:layout_below="@+id/textViewBusinessName"
+        android:layout_marginTop="27dp"
+        android:text="בעל העסק"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewBusinessTitle"
+        android:layout_marginTop="39dp"
+        android:layout_toRightOf="@+id/textViewBusinessTitle"
+        android:text="שם העסק"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewBusinessDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewOwnerDetails"
+        android:layout_below="@+id/textViewOwnerDetails"
+        android:layout_marginTop="33dp"
+        android:text="תאור העסק"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewEmail"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_marginTop="31dp"
+        android:text="מס&apos; טלפון"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewBusinessDetails"
+        android:layout_below="@+id/textViewBusinessDetails"
+        android:layout_marginTop="44dp"
+        android:text="כתובת מייל"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editTextBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewBusinessName"
+        android:layout_alignBottom="@+id/textViewBusinessName"
+        android:layout_marginRight="26dp"
+        android:layout_toLeftOf="@+id/textViewBusinessDetails"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextOwnerDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextBusinessName"
+        android:layout_alignRight="@+id/editTextBusinessName"
+        android:layout_alignTop="@+id/textViewOwnerDetails"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editTextBusinessDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextOwnerDetails"
+        android:layout_alignTop="@+id/textViewBusinessDetails"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewEmail"
+        android:layout_alignBottom="@+id/textViewEmail"
+        android:layout_alignRight="@+id/editTextBusinessDetails"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewPhoneNumber"
+        android:layout_alignRight="@+id/editTextEmail"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewBusinessTitle"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button"
+        android:text="יצירת חשבון" />
 
 </RelativeLayout>

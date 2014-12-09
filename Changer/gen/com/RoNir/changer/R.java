@@ -1107,18 +1107,26 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05003f;
+        public static final int action_settings=0x7f050051;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int buttonBusinessOwner=0x7f05003d;
-        public static final int buttonClient=0x7f05003e;
+        public static final int buttonBusinessOwner=0x7f05004f;
+        public static final int buttonClient=0x7f050050;
+        public static final int buttonCreateAccount=0x7f050047;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
+        public static final int editTextBusinessDetails=0x7f050044;
+        public static final int editTextBusinessName=0x7f050042;
+        public static final int editTextEmail=0x7f050045;
+        public static final int editTextFirstName=0x7f05004b;
+        public static final int editTextLastName=0x7f05004c;
+        public static final int editTextOwnerDetails=0x7f050043;
+        public static final int editTextPhoneNumber=0x7f050046;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
@@ -1154,7 +1162,17 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int textViewWelcomeTitle=0x7f05003c;
+        public static final int textViewBusinessDetails=0x7f05003f;
+        public static final int textViewBusinessName=0x7f05003e;
+        public static final int textViewBusinessTitle=0x7f05003c;
+        public static final int textViewClientTitle=0x7f050048;
+        public static final int textViewEmail=0x7f050041;
+        public static final int textViewFirstName=0x7f05004a;
+        public static final int textViewLastName=0x7f050049;
+        public static final int textViewOwnerDetails=0x7f05003d;
+        public static final int textViewPhoneNumber=0x7f050040;
+        public static final int textViewSkip=0x7f05004d;
+        public static final int textViewWelcomeTitle=0x7f05004e;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1269,8 +1287,6 @@ containing a value of this type.
         public static final int title_activity_client=0x7f0a0014;
         public static final int title_activity_client_registration=0x7f0a0013;
         public static final int title_business_owner=0x7f0a0010;
-        /**   <string name="title_activity_client">Client Registration Activity</string> 
-         */
         public static final int title_client=0x7f0a0011;
     }
     public static final class style {

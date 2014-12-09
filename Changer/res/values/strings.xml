@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Changer</string>
-    <string name="action_settings">Settings</string>
-    <string name="WelcomeText">Welcome To Changer</string>
-    <string name="title_business_owner">Business Owner</string>
-    <string name="title_activity_client">ClientActivity</string>
-    <string name="title_client">Client</string>
-    <string name="title_activity_business_owner_registration">BusinessOwnerRegistrationActivity</string>
+    <string name="title_activity_client_registration">ClientRegistrationActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

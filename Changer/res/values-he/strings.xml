@@ -6,4 +6,9 @@
     <string name="title_business_owner">בעל עסק</string>
     <string name="title_activity_client">ClientActivity</string>
     <string name="title_client">לקוח</string>
+    <string name="title_activity_business_owner_registration">Business registration Activity</string>
+    <string name="title_activity_client_registration">Business registration Activity</string>
+    
+    
+    
 </resources>

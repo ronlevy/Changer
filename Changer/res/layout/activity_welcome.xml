@@ -18,7 +18,7 @@
         android:layout_marginTop="26dp"
         android:text="@string/WelcomeText"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="30sp"
+        android:textSize="27sp"
         android:textStyle="bold|italic" />
 
     <Button

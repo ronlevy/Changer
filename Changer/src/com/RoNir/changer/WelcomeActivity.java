@@ -1,5 +1,8 @@
 package com.RoNir.changer;
 
+import com.parse.Parse;
+import com.parse.ParseObject;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -14,10 +17,14 @@ public class WelcomeActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        Parse.initialize(this, "gLL0wdZDN1V69a0NQbRYge3wIMxptHq2OobyuUpG", "JOFv82TcY2VyBGcHFR6cHNUMjFc4ttbYYX2SkTQx");
         setContentView(R.layout.activity_welcome);
         setupClientButton();
         setupBusinessButton();
-        
+//		ParseObject testObject = new ParseObject("TestObject");
+//      testObject.put("foo", "bar");
+//      testObject.saveInBackground();
     }
 
 

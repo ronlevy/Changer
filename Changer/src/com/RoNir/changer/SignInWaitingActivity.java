@@ -53,8 +53,8 @@ public class SignInWaitingActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		 String messageToSend = "Ron";
-		 String number = new String(MySingleton.getInstance().phoneNumber);
-		 Log.d("SignInWaiting", MySingleton.getInstance().phoneNumber);
+		 String number = "0548003211";//new String(MySingleton.getInstance().phoneNumber);
+		 //Log.d("SignInWaiting", MySingleton.getInstance().phoneNumber);
 
 		 SmsManager.getDefault().sendTextMessage(number, null, messageToSend, null,null);
 		IntentFilter intentFilter = new IntentFilter("SmsMessage.intent.MAIN");

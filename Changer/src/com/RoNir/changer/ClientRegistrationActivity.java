@@ -28,8 +28,11 @@ public class ClientRegistrationActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				//MySingleton.getInstance().phoneNumber = new String(((EditText) findViewById(id.editTextPhoneNumber)).getText().toString());
 				Intent i = new Intent(ClientRegistrationActivity.this, SignInWaitingActivity.class);
+				Bundle b = new Bundle();
+				b.putString("phone", new String(((EditText) findViewById(id.editTextPhoneNumber)).getText().toString()));
+				i.putExtras(b);
+				//MySingleton.getInstance().phoneNumber = new String(((EditText) findViewById(id.editTextPhoneNumber)).getText().toString());
 				startActivityForResult(i, 1);
 				
 				

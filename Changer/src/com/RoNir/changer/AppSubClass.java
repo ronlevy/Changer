@@ -3,7 +3,7 @@ package com.RoNir.changer;
 import android.app.Application;
 
 public class AppSubClass extends Application  {
-	public boolean isAuth = false;
+	//public boolean isAuth = false;
 	
 	  @Override
 	  public void onCreate()

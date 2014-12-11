@@ -1097,9 +1097,9 @@ containing a value of this type.
         public static final int imagesbg=0x7f02005a;
     }
     public static final class id {
-        public static final int SW_MobNoVeryfyDesctxt=0x7f05004f;
-        public static final int SW_TimeRemainigTv=0x7f050050;
-        public static final int SW_progressBar=0x7f050051;
+        public static final int SW_MobNoVeryfyDesctxt=0x7f05004e;
+        public static final int SW_TimeRemainigTv=0x7f05004f;
+        public static final int SW_progressBar=0x7f050050;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1108,20 +1108,19 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f050023;
         public static final int action_bar_title=0x7f050022;
         public static final int action_context_bar=0x7f05001d;
-        public static final int action_exit=0x7f050056;
+        public static final int action_exit=0x7f050055;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050055;
+        public static final int action_settings=0x7f050054;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int buttonBusinessOwner=0x7f050053;
-        public static final int buttonClient=0x7f050054;
+        public static final int buttonBusinessOwner=0x7f050052;
+        public static final int buttonClient=0x7f050053;
         public static final int buttonCreateAccount=0x7f050047;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
-        public static final int container=0x7f05004e;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1178,7 +1177,7 @@ containing a value of this type.
         public static final int textViewOwnerDetails=0x7f05003d;
         public static final int textViewPhoneNumber=0x7f050040;
         public static final int textViewSkip=0x7f05004d;
-        public static final int textViewWelcomeTitle=0x7f050052;
+        public static final int textViewWelcomeTitle=0x7f050051;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1237,18 +1236,15 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_business_owner_registration=0x7f030018;
         public static final int activity_client_registration=0x7f030019;
-        public static final int activity_maps=0x7f03001a;
-        public static final int activity_sign_in_waiting=0x7f03001b;
-        public static final int activity_welcome=0x7f03001c;
-        public static final int fragment_maps=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_sign_in_waiting=0x7f03001a;
+        public static final int activity_welcome=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int business_owner_registration=0x7f0d0000;
         public static final int client_registration=0x7f0d0001;
         public static final int main=0x7f0d0002;
-        public static final int maps=0x7f0d0003;
-        public static final int sign_in_waiting=0x7f0d0004;
+        public static final int sign_in_waiting=0x7f0d0003;
     }
     public static final class string {
         public static final int WelcomeText=0x7f0a000f;
@@ -1294,12 +1290,10 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
-        public static final int hello_world=0x7f0a0016;
         public static final int msg_auth_failed=0x7f0a0014;
         public static final int title_activity_business_owner_registration=0x7f0a0012;
-        public static final int title_activity_client=0x7f0a0017;
+        public static final int title_activity_client=0x7f0a0015;
         public static final int title_activity_client_registration=0x7f0a0013;
-        public static final int title_activity_maps=0x7f0a0015;
         public static final int title_business_owner=0x7f0a0010;
         public static final int title_client=0x7f0a0011;
     }

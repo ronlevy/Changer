@@ -1,5 +1,7 @@
 package com.RoNir.changer;
 
+import com.RoNir.changer.R.string;
+
 import android.telephony.SmsManager;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -53,7 +55,9 @@ public class SignInWaitingActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		 String messageToSend = "Ron";
-		 String number = "0548003211";//new String(MySingleton.getInstance().phoneNumber);
+		 Bundle b = getIntent().getExtras();
+		 String value = b.getString("phone");
+		 String number = value;
 		 //Log.d("SignInWaiting", MySingleton.getInstance().phoneNumber);
 
 		 SmsManager.getDefault().sendTextMessage(number, null, messageToSend, null,null);
@@ -83,7 +87,7 @@ public class SignInWaitingActivity extends Activity {
 					Toast.makeText(getApplicationContext(),
 							"Authentication Success.", 1).show();
 					mobNoVeryfyTv.setText("Authentication Success.");
-					MySingleton.getInstance().isAuth = true;
+					//MySingleton.getInstance().isAuth = true;
 					result = "true";
 					
 

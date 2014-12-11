@@ -68,9 +68,10 @@ public class SignInWaitingActivity extends Activity {
 				String body = msg.substring(msg.lastIndexOf(":") + 1,
 						msg.length());
 				String pNumber = msg.substring(0, msg.lastIndexOf(":"));
+				String result = "false";
 
 				// Add it to the list or do whatever you wish to
-				Log.e("onResume", "" + msg + body + pNumber);
+				Log.d("onResume", "" + msg + body + pNumber);
 
 				Toast.makeText(getApplicationContext(), body, 1).show();
 
@@ -83,6 +84,7 @@ public class SignInWaitingActivity extends Activity {
 							"Authentication Success.", 1).show();
 					mobNoVeryfyTv.setText("Authentication Success.");
 					MySingleton.getInstance().isAuth = true;
+					result = "true";
 					
 
 				} else {
@@ -93,6 +95,9 @@ public class SignInWaitingActivity extends Activity {
 				//	SignInWaitingActivity.this.finish();
 
 				}
+				Intent returnIntent = new Intent();
+				returnIntent.putExtra("result",result);
+				SignInWaitingActivity.this.setResult(RESULT_OK,returnIntent);
 				finish();
 
 			}

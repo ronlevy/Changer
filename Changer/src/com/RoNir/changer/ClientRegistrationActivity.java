@@ -29,9 +29,23 @@ public class ClientRegistrationActivity extends ActionBarActivity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				MySingleton.getInstance().phoneNumber = new String(((EditText) findViewById(id.editTextPhoneNumber)).getText().toString());
-				startActivity(new Intent(ClientRegistrationActivity.this, SignInWaitingActivity.class));
+				Intent i = new Intent(ClientRegistrationActivity.this, SignInWaitingActivity.class);
+				startActivityForResult(i, 1);
 				
-				if(MySingleton.getInstance().isAuth == true){
+				
+					
+			}
+		});
+		
+		
+	}
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+	    if (requestCode == 1) {
+	        if(resultCode == RESULT_OK){
+	            String result=data.getStringExtra("result");
+	            if(result.equals("true")){
 					Log.d("ClientRegistration",  "true");
 					ParseObject client = new ParseObject("Clients");
 					client.put("FirstName", ((EditText) findViewById(id.editTextFirstName)).getText().toString());
@@ -39,34 +53,34 @@ public class ClientRegistrationActivity extends ActionBarActivity {
 					client.put("PhoneNumber", ((EditText) findViewById(id.editTextPhoneNumber)).getText().toString());
 					client.saveInBackground();
 				}	
-//				else{
-//					Log.d("ClientRegistration",  "false");
-//					AlertDialog.Builder builder1 = new AlertDialog.Builder(ClientRegistrationActivity.this);
-//		            builder1.setMessage("phone number authentication failed");
-//		            builder1.setCancelable(true);
-//		            builder1.setPositiveButton("Yes",
-//		                    new DialogInterface.OnClickListener() {
-//		                public void onClick(DialogInterface dialog, int id) {
-//		                    dialog.cancel();
-//		                }
-//		            });
+				else{
+					Log.d("ClientRegistration",  "false");
+					AlertDialog.Builder builder1 = new AlertDialog.Builder(ClientRegistrationActivity.this);
+		            builder1.setMessage(getResources().getString(R.string.msg_auth_failed));
+		            builder1.setCancelable(true);
+		            builder1.setPositiveButton("OK",
+		                    new DialogInterface.OnClickListener() {
+		                public void onClick(DialogInterface dialog, int id) {
+		                    dialog.cancel();
+		                }
+		            });
 //		            builder1.setNegativeButton("No",
 //		                    new DialogInterface.OnClickListener() {
 //		                public void onClick(DialogInterface dialog, int id) {
 //		                    dialog.cancel();
 //		                }
 //		            });
-//
-//		            AlertDialog alert11 = builder1.create();
-//		            alert11.show();
-//				}
-//					
-			}
-		});
-		
-		
-	}
 
+		            AlertDialog alert11 = builder1.create();
+		            alert11.show();
+				}
+	        }
+	        if (resultCode == RESULT_CANCELED) {
+	            //Write your code if there's no result
+	        }
+	    }
+	}//onActivityResult
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

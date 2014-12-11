@@ -3,8 +3,8 @@ package com.RoNir.changer;
 	public class MySingleton
 	{
 	  private static MySingleton instance;
-	   
-	  public boolean isAuth = false;
+	  
+	  public boolean isAuth;
 	  public String phoneNumber;
 	   
 	  public static void initInstance()

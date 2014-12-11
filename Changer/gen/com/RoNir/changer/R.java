@@ -1108,6 +1108,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f050023;
         public static final int action_bar_title=0x7f050022;
         public static final int action_context_bar=0x7f05001d;
+        public static final int action_exit=0x7f050055;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
@@ -1289,8 +1290,9 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
+        public static final int msg_auth_failed=0x7f0a0014;
         public static final int title_activity_business_owner_registration=0x7f0a0012;
-        public static final int title_activity_client=0x7f0a0014;
+        public static final int title_activity_client=0x7f0a0015;
         public static final int title_activity_client_registration=0x7f0a0013;
         public static final int title_business_owner=0x7f0a0010;
         public static final int title_client=0x7f0a0011;

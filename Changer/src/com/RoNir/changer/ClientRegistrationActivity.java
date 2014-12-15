@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class ClientRegistrationActivity extends ActionBarActivity {
 
@@ -39,7 +40,14 @@ public class ClientRegistrationActivity extends ActionBarActivity {
 					
 			}
 		});
-		
+		TextView textViewSkip = (TextView) findViewById(R.id.textViewSkip);
+		textViewSkip.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(ClientRegistrationActivity.this, ConversionInputActivity.class));
+			}
+		});
 		
 	}
 	@Override

@@ -17,7 +17,23 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        public static final int androidcolors=0x7f0d0000;
+        public static final int androidcolors=0x7f0d0001;
+        /**   <item>Ganei Tikva</item>
+        <item>Haifa</item>
+        <item>Izrael</item>
+        <item>Jerusalem</item>
+        <item>Kiriat Shmona</item>
+        <item>Liman</item>
+        <item>Metula</item>
+        <item>Naharia</item>
+        <item>Ofakim</item>
+        <item>Petah=Tikva</item>
+        <item>Qualkilia</item>
+        <item>Ramat Gan</item>
+        <item>Shfayim</item>
+        <item>Tel Aviv</item>   
+         */
+        public static final int currencies=0x7f0d0000;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1534,9 +1550,9 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f02007a;
     }
     public static final class id {
-        public static final int SW_MobNoVeryfyDesctxt=0x7f080064;
-        public static final int SW_TimeRemainigTv=0x7f080065;
-        public static final int SW_progressBar=0x7f080066;
+        public static final int SW_MobNoVeryfyDesctxt=0x7f08006a;
+        public static final int SW_TimeRemainigTv=0x7f08006b;
+        public static final int SW_progressBar=0x7f08006c;
         public static final int action_bar=0x7f080031;
         public static final int action_bar_activity_content=0x7f08002a;
         public static final int action_bar_container=0x7f080030;
@@ -1545,19 +1561,20 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f080038;
         public static final int action_bar_title=0x7f080037;
         public static final int action_context_bar=0x7f080032;
-        public static final int action_exit=0x7f08006b;
+        public static final int action_exit=0x7f08007b;
         public static final int action_menu_divider=0x7f08002b;
         public static final int action_menu_presenter=0x7f08002c;
         public static final int action_mode_close_button=0x7f080039;
-        public static final int action_settings=0x7f08006a;
+        public static final int action_settings=0x7f080070;
         public static final int activity_chooser_view_content=0x7f08003a;
         public static final int adjust_height=0x7f080002;
         public static final int adjust_width=0x7f080001;
         public static final int always=0x7f080021;
         public static final int beginning=0x7f080026;
         public static final int book_now=0x7f080012;
-        public static final int buttonBusinessOwner=0x7f080068;
-        public static final int buttonClient=0x7f080069;
+        public static final int btnSubmit=0x7f080064;
+        public static final int buttonBusinessOwner=0x7f08006e;
+        public static final int buttonClient=0x7f08006f;
         public static final int buttonCreateAccount=0x7f08005c;
         public static final int buyButton=0x7f08000c;
         public static final int buy_now=0x7f080011;
@@ -1570,6 +1587,7 @@ containing a value of this type.
         public static final int disableHome=0x7f08001e;
         public static final int donate_with_google=0x7f080013;
         public static final int dropdown=0x7f080025;
+        public static final int editText1=0x7f080068;
         public static final int editTextBusinessDetails=0x7f080059;
         public static final int editTextBusinessName=0x7f080057;
         public static final int editTextEmail=0x7f08005a;
@@ -1592,8 +1610,18 @@ containing a value of this type.
         public static final int image=0x7f08003c;
         public static final int listMode=0x7f080017;
         public static final int list_item=0x7f08003e;
-        public static final int map=0x7f080063;
+        public static final int map=0x7f080069;
         public static final int match_parent=0x7f08000e;
+        public static final int menu_addmarker=0x7f080076;
+        public static final int menu_getcurrentlocation=0x7f080077;
+        public static final int menu_gotolocation=0x7f080075;
+        public static final int menu_lineconnecttwopoints=0x7f080079;
+        public static final int menu_sethybrid=0x7f080071;
+        public static final int menu_settings=0x7f08007a;
+        public static final int menu_showcurrentlocation=0x7f080078;
+        public static final int menu_showtraffic=0x7f080072;
+        public static final int menu_zoomin=0x7f080073;
+        public static final int menu_zoomout=0x7f080074;
         public static final int middle=0x7f080027;
         public static final int monochrome=0x7f080016;
         public static final int never=0x7f08001f;
@@ -1620,11 +1648,15 @@ containing a value of this type.
         public static final int showCustom=0x7f08001d;
         public static final int showHome=0x7f08001a;
         public static final int showTitle=0x7f08001c;
+        public static final int spinner1=0x7f080067;
+        public static final int spinner2=0x7f080065;
         public static final int split_action_bar=0x7f080033;
         public static final int strict_sandbox=0x7f08000b;
         public static final int submit_area=0x7f08004e;
         public static final int tabMode=0x7f080018;
         public static final int terrain=0x7f080005;
+        public static final int textView1=0x7f080063;
+        public static final int textView2=0x7f080066;
         public static final int textViewBusinessDetails=0x7f080054;
         public static final int textViewBusinessName=0x7f080053;
         public static final int textViewBusinessTitle=0x7f080051;
@@ -1635,7 +1667,7 @@ containing a value of this type.
         public static final int textViewOwnerDetails=0x7f080052;
         public static final int textViewPhoneNumber=0x7f080055;
         public static final int textViewSkip=0x7f080062;
-        public static final int textViewWelcomeTitle=0x7f080067;
+        public static final int textViewWelcomeTitle=0x7f08006d;
         public static final int title=0x7f080040;
         public static final int top_action_bar=0x7f080035;
         public static final int up=0x7f080036;
@@ -1696,17 +1728,19 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_business_owner_registration=0x7f030018;
         public static final int activity_client_registration=0x7f030019;
-        public static final int activity_google_map_app=0x7f03001a;
-        public static final int activity_sign_in_waiting=0x7f03001b;
-        public static final int activity_welcome=0x7f03001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int activity_conversion_input=0x7f03001a;
+        public static final int activity_google_map_app=0x7f03001b;
+        public static final int activity_sign_in_waiting=0x7f03001c;
+        public static final int activity_welcome=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
         public static final int business_owner_registration=0x7f0e0000;
         public static final int client_registration=0x7f0e0001;
-        public static final int google_map_app=0x7f0e0002;
-        public static final int main=0x7f0e0003;
-        public static final int sign_in_waiting=0x7f0e0004;
+        public static final int conversion_input=0x7f0e0002;
+        public static final int google_map_app=0x7f0e0003;
+        public static final int main=0x7f0e0004;
+        public static final int sign_in_waiting=0x7f0e0005;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f050000;
@@ -1756,6 +1790,7 @@ containing a value of this type.
         public static final int accept=0x7f070002;
         public static final int action_settings=0x7f070031;
         public static final int app_name=0x7f070030;
+        public static final int best_prices=0x7f07003b;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f070009;
@@ -1858,13 +1893,16 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f070005;
         public static final int create_calendar_title=0x7f070004;
         public static final int decline=0x7f070003;
+        public static final int edit_text_you_got=0x7f07003d;
         public static final int hello_world=0x7f070039;
+        public static final int money_change_yl=0x7f07003a;
         public static final int msg_auth_failed=0x7f070037;
         public static final int store_picture_message=0x7f070001;
         public static final int store_picture_title=0x7f070000;
         public static final int title_activity_business_owner_registration=0x7f070035;
-        public static final int title_activity_client=0x7f07003a;
+        public static final int title_activity_client=0x7f07003e;
         public static final int title_activity_client_registration=0x7f070036;
+        public static final int title_activity_conversion_input=0x7f07003c;
         public static final int title_activity_google_map_app=0x7f070038;
         public static final int title_business_owner=0x7f070033;
         public static final int title_client=0x7f070034;

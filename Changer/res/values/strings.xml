@@ -11,5 +11,9 @@
     <string name="msg_auth_failed">אימות מספר הטלפון נכשל. אנא נסה שנית</string>
     <string name="title_activity_google_map_app">GoogleMapAppActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="money_change_yl">מאני ציינג יצחק לוי</string>
+    <string name="best_prices">המחירים הכי טובים</string>
+    <string name="title_activity_conversion_input">ConversionInputActivity</string>
+    <string name="edit_text_you_got">יש לך..</string>
 
 </resources>

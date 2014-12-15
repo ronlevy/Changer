@@ -46,7 +46,7 @@ public class WelcomeActivity extends ActionBarActivity {
 			
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(WelcomeActivity.this, GoogleMapAppActivity.class));
+				startActivity(new Intent(WelcomeActivity.this, BusinessOwnerRegistrationActivity.class));
 				
 			}
 		});

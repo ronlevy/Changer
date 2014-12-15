@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="currencies">
+        <item>שקל</item>
+        <item>דולר</item>
+        <item>יורו</item>
+        <item>פאונד</item>
+        <item>שוויצרי</item>
+        <item>קנדי</item>
+      <!--  <item>Ganei Tikva</item>
+        <item>Haifa</item>
+        <item>Izrael</item>
+        <item>Jerusalem</item>
+        <item>Kiriat Shmona</item>
+        <item>Liman</item>
+        <item>Metula</item>
+        <item>Naharia</item>
+        <item>Ofakim</item>
+        <item>Petah=Tikva</item>
+        <item>Qualkilia</item>
+        <item>Ramat Gan</item>
+        <item>Shfayim</item>
+        <item>Tel Aviv</item>   -->  
+    </array>
+
+</resources>
